@@ -1,0 +1,11 @@
+# Set the default behavior for text files to use LF line endings
+* text=auto
+
+# Define files that should always have LF line endings
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Define files that should have CRLF line endings
+# Uncomment the following line if needed
+#*.bat text eol=crlf

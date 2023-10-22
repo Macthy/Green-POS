@@ -1,5 +1,3 @@
-export KIVY_METRIC=hidinput
-
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 
