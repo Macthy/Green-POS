@@ -1,1 +1,1 @@
- # GreenPOS Web Portfolio Project
+ # SilverStone POS Portfolio Project
