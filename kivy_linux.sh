@@ -13,7 +13,7 @@ export DISPLAY=:99
 # Initialize virtual environment and set environment variables
 echo "[INFO] Installing and initializing a virtual environment..."
 python3.5 -m venv kivyenv
-source kivyenv/bin/activate
+. kivyenv/bin/activate
 mkdir ~/.runtime
 export XDG_RUNTIME_DIR="$HOME/.runtime"
 
@@ -55,7 +55,7 @@ pip install numpy
 
 # Install matplotlib and graph via Kivy Garden
 chmod +x kivyenv/bin/garden
-kivyenv/bin/garden install matplotlib graph
+. kivyenv/bin/garden install matplotlib graph
 
 # Configure Kivy
 echo "[INFO] Configuring Kivy..."
